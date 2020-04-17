@@ -1,0 +1,9 @@
+common:
+    macros:
+        - SOFT_RESET=VECTRESET
+    sources:
+        board:
+            - source/board/hexing_wisun.c
+        family:
+            - source/family/freescale/hexing_wisun/target.c
+            - source/family/freescale/target_reset_mimxrt.c
